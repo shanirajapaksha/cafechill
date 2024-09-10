@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Chill Ella</title>
+
+    <!-- swiper link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- cdn icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- header section start here  -->
+    <header class="header">
+        <div class="logoContent">
+            <a href="#" class="logo"><img src="image/logochill.webp" alt=""></a>
+            <h1 class="logoName">Cafe Chill ELLA</h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="product.html">product</a>
+            <a href="blog.html">About us</a>
+            <a href="review.html">review</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-bars" id="menu-bar"></i>
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="search...">
+        </div>
+    </header>
+    <!-- header section end here  -->
+
+    <!--contact section start here-->
+    <section class="contact">
+        <div class="contact-info">
+            <h2>Contact us</h2>
+            <br><br>
+            <p>We are excited to announce the introduction of our new website, 
+                with the goal of making the new website more customized, quicker, 
+                simpler to use, and more user-friendly. </p><br>
+                <p>To assist our readers in 
+                discovering exactly what they're searching for, we've established a clean, 
+                modern design and improved site navigation. We'd love to hear from you. 
+                All suggestions and comments are welcome!</p>
+                <br>
+                    <br>
+
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p>123 Coffee Street, Bean Town, Coffee Land</p>
+                </div>
+                <br>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Phone</h3>
+                    <p>+9474 456 7890</p>
+                </div>
+                <br>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@cafechillella.lk</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send us a message</h2>
+            <form id="contact" action="home.html" onSubmit="return validateForm()">
+
+                <h3>Name: <input type="text" id="name" name="name" placeholder="enter your name" /></h3>
+                <h3>Email : <input type="text" id="email" name="email" placeholder="Enter your email"/></h3>
+                <div id="msg"></div>
+                <h3>Phone number : <input type="text" id="phone" name="phone" placeholder="+94777777777" /></h3>
+                <h3>NIC : <input type="text" id="nic" name="nic" placeholder="enter your NIC"/></h3>
+                <h3>Message :  <textarea name="message" rows="5" placeholder="Message" required></textarea></h3>
+                <div><input type="submit" value="Submit" /></div>
+            </form>
+        </div>
+    </section>
+    <!--contact section end here -->
+
+     <!-- footer section start here  -->
+
+     <footer class="footer" id="contact">
+        <div class="box-container">
+            <div class="mainBox">
+                <div class="content">
+                    <a href="#"><img src="image/logochill.webp" alt=""></a>
+                    <h1 class="logoName"> Cafe Chill ELLA </h1>
+                </div>
+
+                <p>We have a Passion,for Coffee & and Good food.</p>
+
+            </div>
+            <div class="box">
+                <h3>Quick link</h3>
+                <a href="home.html"> <i class="fas fa-arrow-right"></i>Home</a>
+                <a href="product.html"> <i class="fas fa-arrow-right"></i>product</a>
+                <a href="blog.html"> <i class="fas fa-arrow-right"></i>blogs</a>
+                <a href="review.html"> <i class="fas fa-arrow-right"></i>review</a>
+                <a href="contact.html"> <i class="fas fa-arrow-right"></i>contact</a>
+
+            </div>
+            <div class="box">
+                <h3>Extra link</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i>Account info</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>order item</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>privacy policy</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>payment method</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i>our  services</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"> <i class="fas fa-phone"></i>+9474 456 7890</a>
+                <a href="#"> <i class="fas fa-envelope"></i>info@cafechillella.lk</a>
+
+            </div>
+
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="credit">
+            created by <span>Ms.Shani </span> |all rights reserved ! 
+        </div>
+    </footer>
+
+    
+
+   <!-- swiper js link  -->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+   <!-- custom js file  -->
+   <script src="index.js"></script>
+    
+</body>
+</html>
